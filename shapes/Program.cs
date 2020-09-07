@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace shapes
 {
-    class shape
+    public class shape
     {
         internal int length;
         internal int height;
@@ -30,12 +30,12 @@ namespace shapes
             calculatePerimeter();
         }
 
-        private int getArea()
+        public int getArea()
         {
             return area;
         }
 
-        private int getPerimeter()
+        public int getPerimeter()
         {
             return perimeter;
         }
